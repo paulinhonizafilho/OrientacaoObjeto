@@ -13,7 +13,10 @@ public function __construct($argTitulo = '', $argAutor = '', $argAno = '', $argE
    $this->ano = $argAno;
    $this->edicao = $argEdicao;
 }
-public function imprimiiir() {
+
+//faltou a implementação dos métodos getters e setters
+
+public function imprimir() {
 	echo "Classe Livro" . "</br>" . "</br>" . "Titulo: " . $this->titulo . "</br>Autor: " . $this->autor . "</br>Ano: " . $this->ano . "</br>Edição: " . $this->edicao . "</br>";
 }
 
